@@ -116,16 +116,12 @@ a{
   font-family: 'Oswald', sans-serif;
   margin-top: 7px;
 }
-body{
-  height: 100vh;
-  width: 100%;
-}
+
 
 /*==========================================
 nav
 =============================================*/
 nav{
-  width: 100%;
   height: 14vh;
   display: flex;
   justify-content: space-between;
@@ -145,9 +141,6 @@ i{
   margin: 0.5em;
 }
 h1{
-  width: 18%;
-  height: 10vh;
-  margin-top: 7px;
   font-family: 'Notable', sans-serif;
 }
 /*==========================================
@@ -178,45 +171,34 @@ article{
   width: 20%;
   height: 40vh;
 }
-article img, h2{
+article img{
   width: 100%;
   height: auto;
 }
+
 main{
-  height: 40vh;
-  width: 100%;
   display: flex;
   justify-content: space-around;
-  margin-bottom: 6em;
 }
+
 form{
   width: 40%;
   height: 50vh;
   justify-content: center;
 }
 
-}
-fieldset{
-  display: flex;
-  width: auto;
-  height: auto;
-
-}
 
 
 /*==================================================
 footer
 ====================================================*/
 footer ul{
-  width: 80%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 footer{
-  width: 100%;
-  height: 12vh;
   display: flex;
-  margin-top: 2px;
+  justify-content: space-between;
 }
 
 
